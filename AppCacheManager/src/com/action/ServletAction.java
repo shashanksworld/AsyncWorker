@@ -11,6 +11,7 @@ public class ServletAction {
 	@ResponseBody
 	public String requestListner(HttpServletRequest req)
 	{
+		
 		System.out.println("Reaching action controller");
 		String param1=req.getParameter("param1");
 //		System.out.println("Reaching action controller");
