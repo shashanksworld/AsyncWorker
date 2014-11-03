@@ -16,8 +16,8 @@ public class ServletAction {
 		String param1=req.getParameter("param1");
 //		System.out.println("Reaching action controller");
 //		return "Response from Client"+param1;
-		System.out.println("Response from Client Id: "+param1);
-		return "Response from Client Id :"+param1;
+		System.out.println("Response from Client Id: "+System.currentTimeMillis());
+		return "Response from Client Id :"+System.currentTimeMillis();
 	}
 	
 	@RequestMapping("/redirector.do")
